@@ -3,7 +3,7 @@
 ## git fetch
 
 - Use `git fetch` to get changes from a remote repository and add them to a [tracking branch](https://stackoverflow.com/questions/4693588/what-is-a-tracking-branch).
-- To make the changes to your local branch, you must use the [`git merge` command](https://www.atlassian.com/git/tutorials/using-branches/git-merge).
+- After `git fetch`, to make the changes to your local branch, you must use the [`git merge` command](https://www.atlassian.com/git/tutorials/using-branches/git-merge).
 - Syntax: `git fetch <remote> <branch>`
 
 ## git pull
@@ -20,6 +20,6 @@
 
 ## When to use each command
 
-- Use `git fetch` when you want to review the changes before you merge them into your local branch.
 - Use `git pull` when you want to update your local branch with the latest changes from the remote repository.
+- Use `git fetch` when you want to review the changes before you merge them into your local branch.
 - Use `git push` when you want to send your changes to a remote repository.
